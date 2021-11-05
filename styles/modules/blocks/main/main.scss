@@ -1,0 +1,22 @@
+.main {
+    background-color: #0A0A0A;
+    color: #FFF;
+    font-family: "Golos", helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+    .main {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        max-width: 320px;
+    }
+}

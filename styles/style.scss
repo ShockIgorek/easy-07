@@ -1,0 +1,52 @@
+@import "../vendor/fonts.css" ;
+@import "../vendor/normalize.css";
+@import "./modules/variables.scss";
+
+@import "./modules/blocks/page/page.scss";
+
+
+@import "./modules/blocks/burger/burger.scss";
+@import "./modules/blocks/burger/_open/burger_open.scss";
+@import "./modules/blocks/burger/__button/burger__button.scss";
+@import "./modules/blocks/burger/__button/_open/burger__button_open.scss";
+@import "./modules/blocks/burger/__list/burger__list.scss";
+@import "./modules/blocks/burger/__item/burger__item.scss";
+@import "./modules/blocks/burger/__link/burger__link.scss";
+
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__title/header__title.scss";
+
+@import "./modules/blocks/main/main.scss";
+
+@import "./modules/blocks/description/description.scss";
+@import "./modules/blocks/description/__title/description__title.scss";
+@import "./modules/blocks/description/__paragraph/description__paragraph.scss";
+@import "./modules/blocks/description/__image/description__image.scss";
+@import "./modules/blocks/description/__ilustration/description__ilustration.scss";
+@import "./modules/blocks/description/__subtitle/description__subtitle.scss";
+@import "./modules/blocks/description/__text/description__text.scss";
+@import "./modules/blocks/products/products.scss";
+@import "./modules/blocks/products/__title/products__title.scss";
+
+@import "./modules/blocks/slider/slider.scss";
+@import "./modules/blocks/slider/__item/slider__item.scss";
+@import "./modules/blocks/slider/__image/slider__image.scss";
+@import "./modules/blocks/slider/__button/slider__button.scss";
+@import "./modules/blocks/slider/__left-button/slider__left-button.scss";
+@import "./modules/blocks/slider/__right-button/slider__right-button.scss";
+
+@import "./modules/blocks/discipline/discipline.scss";
+@import "./modules/blocks/discipline/__text/discipline__text.scss";
+@import "./modules/blocks/discipline/__image/discipline__image.scss";
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__title/title.scss";
+@import "./modules/blocks/footer/__text/footer__text.scss";
+@import "./modules/blocks/footer/__form/footer__form.scss";
+@import "./modules/blocks/footer/__subscribe/footer__subscribe.scss";
+@import "./modules/blocks/footer/__button/footer__button.scss";
+@import "./modules/blocks/footer/__input/footer__input.scss";
+@import "./modules/blocks/footer/__label/footer__label.scss";
+@import "./modules/blocks/footer/__jurisprudence/footer__jurisprudence.scss";
+// @import "";
+// @import "";
+// @import "";

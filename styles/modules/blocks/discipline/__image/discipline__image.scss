@@ -1,0 +1,21 @@
+.discipline__image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 810px;
+}
+@media screen and(max-width: 1439px) {
+    .discipline__image {
+        width: 748px;
+        height: 432px;
+    }
+    
+}
+@media screen and(max-width: 767px) {
+    .discipline__image {
+        width: 302px;
+        height: 180px;
+    }
+    
+}

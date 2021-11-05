@@ -1,0 +1,23 @@
+.description__title {
+    grid-area: title;
+    margin: 0;
+    font-family: $fontFamily;
+    color: $textColor;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .description__title {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+}

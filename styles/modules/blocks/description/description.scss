@@ -1,0 +1,26 @@
+.description {
+    background-color: $bgColor;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        'title title'
+        'paragraph image'
+        'ilustration ilustration'
+        'subtitle text';
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        padding-top: 40px;
+        grid-template-columns: auto;
+        grid-template-areas:
+            'title'
+            'paragraph'
+            'image'
+            'ilustration'
+            'subtitle'
+            'text';
+    }
+
+}

@@ -1,0 +1,21 @@
+.slider__right-button {
+    position: absolute;
+    bottom: 300px;
+    right: 20px;
+    z-index: 4;
+    background-image: url('../images/arrow-right.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+}
+
+.slider__right-button:hover {
+    opacity: 0.7;
+}
