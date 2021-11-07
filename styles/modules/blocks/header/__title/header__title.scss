@@ -9,21 +9,22 @@
     line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
-    color: $bgColor;
+    color: $colorMain;
     padding: 208px 0 0 20px;
     max-width: 460px;
 }
 
 @media screen and (max-width: 1439px) {
     .header__title {
-        max-width: none;
+        max-width: 460px;
         padding: 168px 0 0 20px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header__title {
-        max-width: none;
+        
+        max-width: 350px;
         padding: 84px 0 0 20px;
         font-size: 32px;
         line-height: 40px;

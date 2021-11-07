@@ -7,18 +7,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-@media screen and (max-width: 1439px) {
-    .description__ilustration {
-        // width: 748px;
-        height: 432px;
-    }
-    
-}
+
 @media screen and (max-width: 767px) {
     .description__ilustration {
         margin-top: 40px;
-        // width: 302px;
-        height: 180px;
+
     }
     
 }
