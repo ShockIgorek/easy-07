@@ -1,0 +1,17 @@
+.description__ilustration {
+    grid-area: ilustration;
+    width: 100%;
+    margin-top: 80px;
+    justify-self: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    .description__ilustration {
+        margin-top: 40px;
+
+    }
+    
+}

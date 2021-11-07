@@ -1,0 +1,23 @@
+.description__image {
+    justify-self: end;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 246px;
+}
+@media screen and (max-width: 1439px) {
+    .description__image {
+        width: 359px;
+        height: 202px;
+    }
+    
+}
+@media screen and (max-width: 1439px) {
+    .description__image {
+        justify-self: center;
+        width: 280px;
+        height: 174px;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.footer__input {
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+    align-items: center;
+    text-align: center;
+    background-color: $textColor;
+    color: $colorMain;
+    font-family: $fontFamily;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 100px;
+    width: 278px;
+    height: 40px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .footer__input {
+        width: 280px;
+    }
+    
+}

@@ -1,0 +1,17 @@
+.footer__subscribe {
+    // margin: 0 0 0 calc(176px / 2);
+    padding: 0;
+    border: none;
+    display: block;
+    // width: 460px;
+}
+@media screen and (max-width: 1439px) {
+    .footer__subscribe {
+        margin: 0;
+        padding: 0;
+        border: none;
+        display: block;
+        // width: 460px;
+    }
+    
+}

@@ -1,0 +1,41 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 40px 0 80px 0;
+    max-width: calc(100vw - 20px);
+    height: 440px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+// @media screen and (max-width: 1439px) {
+//     .slider {
+//         max-width: 748px;
+//     }
+    
+// }
+@media screen and (max-width: 767px) {
+    .slider {
+        margin: 20px 0 40px 0;
+        // max-width: 300px;
+    }
+    
+}
+
+.slider::-webkit-scrollbar {
+    width: 12px;
+    height: 4px;
+    /* ширина scrollbar */
+}
+
+.slider::-webkit-scrollbar-track {
+    background: #292929;
+    /* цвет дорожки */
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background-color: #EBEBEB;
+    /* цвет плашки */
+    border-radius: 100px;
+    /* закругления плашки */
+}

@@ -1,0 +1,24 @@
+.header {
+    width: 1420px;
+    height: 810px;
+    display: flex;
+    background-image: url('../images/main-ilustration.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        width: calc(100vw - 20px);
+        height: 810px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header {
+        width: calc(100vw - 20px);
+        height: 360px;
+    }
+    
+}

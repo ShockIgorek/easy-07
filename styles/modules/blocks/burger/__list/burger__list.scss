@@ -1,0 +1,18 @@
+.burger__list {
+    margin: 0;
+    padding: 265px 0 0 0;
+    list-style-type: none;
+    background-color: $colorMain;
+    color: $textColor;
+    width: 100%;
+}
+@media screen and (max-width: 1439px) {
+    .burger__list {
+        padding: 277px 0 0 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .burger__list {
+        padding: 98px 0 0 0;
+    }
+}

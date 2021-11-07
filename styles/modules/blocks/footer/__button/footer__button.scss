@@ -1,0 +1,27 @@
+.footer__button {
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    background-color: $colorMain;
+    border-radius: 100px;
+    width: 170px;
+    height: 40px;
+    color: $textColor;
+    font-family: Golos;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+}
+@media screen and (max-width: 767px) {
+    .footer__button {
+        margin-top: 10px;
+        width: 280px;
+    }
+    
+}
+.footer__button:hover {
+    opacity: .7;
+}
